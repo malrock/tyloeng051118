@@ -1,0 +1,11 @@
+D:\kodu\facesort\facesort\bin\Debug\netcoreapp2.1\facesort.deps.json
+D:\kodu\facesort\facesort\bin\Debug\netcoreapp2.1\facesort.runtimeconfig.json
+D:\kodu\facesort\facesort\bin\Debug\netcoreapp2.1\facesort.runtimeconfig.dev.json
+D:\kodu\facesort\facesort\bin\Debug\netcoreapp2.1\facesort.dll
+D:\kodu\facesort\facesort\bin\Debug\netcoreapp2.1\facesort.pdb
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.csprojAssemblyReference.cache
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.csproj.CoreCompileInputs.cache
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.AssemblyInfoInputs.cache
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.AssemblyInfo.cs
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.dll
+D:\kodu\facesort\facesort\obj\Debug\netcoreapp2.1\facesort.pdb
