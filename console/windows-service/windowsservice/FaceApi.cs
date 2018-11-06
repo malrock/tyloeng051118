@@ -1,11 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace FaceSort
+namespace windowsservice
 {
-    public class FaceApi
+    class FaceApi
     {
         // Request parameters. A third optional parameter is "details".
         private const string RequestParameters = "returnFaceId=true&returnFaceLandmarks=false" +
@@ -67,8 +71,9 @@ namespace FaceSort
                 new FileStream(imageFilePath, FileMode.Open, FileAccess.Read))
             {
                 var binaryReader = new BinaryReader(fileStream);
-                return binaryReader.ReadBytes((int) fileStream.Length);
+                return binaryReader.ReadBytes((int)fileStream.Length);
             }
         }
+
     }
 }

@@ -1,11 +1,16 @@
-using NLog;
+﻿using NLog;
 using NLog.Conditions;
 using NLog.Config;
 using NLog.Targets;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace FaceSort
+namespace windowsservice
 {
-    public class LogService : ILogService
+    class LogService: ILogService
     {
         public LogService()
         {
@@ -16,7 +21,7 @@ namespace FaceSort
             }
 
             var config = new LoggingConfiguration();
-            var consoleTarget = new ColoredConsoleTarget {Name = "ColorConsole"};
+            var consoleTarget = new ColoredConsoleTarget { Name = "ColorConsole" };
             var highlightRule = new ConsoleRowHighlightingRule
             {
                 Condition = ConditionParser.ParseExpression("level == LogLevel.Info"),
