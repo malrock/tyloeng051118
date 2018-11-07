@@ -15,4 +15,4 @@ Current demos are:
 
 ## Tools needed to run / edit samples
 * Microsoft Visual Studio 2017 Community Edition (free) (Windows) https://visualstudio.microsoft.com/downloads/
-* JetBrains Rider (evaluation, free for stuneds and teachers) (windows, linux, mac) https://www.jetbrains.com/rider/?fromMenu
+* JetBrains Rider (evaluation, free for students and teachers) (windows, linux, mac) https://www.jetbrains.com/rider/?fromMenu
