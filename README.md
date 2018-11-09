@@ -12,6 +12,7 @@ Current demos are:
 * windows service demo, watches folder on and post to Azure API for face detection. (windows)
 * windows application to upload single image, show detection results (official demo) (windows)
 * workflow console application, same as console application but created with workflow foundation (windows)
+* unit-testing, simple unit testing based on calculator split into code logic and host (windows, portable to linux,mac).
 
 ## Tools needed to run / edit samples
 * Microsoft Visual Studio 2017 Community Edition (free) (Windows) https://visualstudio.microsoft.com/downloads/
